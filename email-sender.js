@@ -5,15 +5,15 @@ import nodemailer from 'nodemailer';
 const transporter = nodemailer.createTransport({
     service: 'gmail', 
     auth: {
-        user: 'adeoyetunmise53@gmail.com',
-        pass: 'm0bis0la'  
+        user: 'sender@gmail.com',
+        pass: 'bolatito'  
     }
 });
 
 // Setup email data
 const mailOptions = {
-    from: 'adeoyetunmise53@gmail.com',     
-    to: 'ibuklous@gmail.com',  
+    from: 'sender@gmail.com',     
+    to: 'receiver@gmail.com',  
     subject: 'Test Email from Nodemailer',  
     text: 'Hello from Node.js using Nodemailer!'  
 };
